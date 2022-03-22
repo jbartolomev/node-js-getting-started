@@ -7,7 +7,7 @@ router.get("/status", function (req, res) {
 });
 
 router.get("/info", function (req, res, next) {
-  res.status(200).send({ url: "ruta?" });
+  res.status(200).send({ url: "https://radiant-woodland-21277.herokuapp.com" });
 });
 
 router.delete("/security", function (req, res, next) {
